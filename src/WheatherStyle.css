@@ -71,7 +71,7 @@ weatherIcon img{
 
 .feelsLike{
     color: #8f9b9d;
-    line-height: 160px;
+    /*line-height: 85px;*/
     margin-left: 240px;
     font-size: 16px;
 
@@ -82,11 +82,8 @@ h1 {
     font-family: 'Open Sans';
     font-weight: 200;
     font-size: 2.9375em;
-    line-height: 2.9375em;
-    position: absolute;
-    left: 6%;
-    top: 50%;
-    transform: translate(0, -50%);
+    /*line-height: 2.9375em;*/
+    /*transform: translate(0, -50%);*/
 }
 
 h2 {
@@ -95,9 +92,11 @@ h2 {
     font-weight: 200;
     font-size: 1.1875em;
     line-height: 1.1875em;
-    position: absolute;
-    top: 24%;
-    left: 27%;
+
+}
+
+.temperature{
+    margin-top: 10px;
 }
 
 h3 {
@@ -106,9 +105,7 @@ h3 {
     font-weight: 400;
     font-size: 0.8125em;
     line-height: 0.8125em;
-    position: absolute;
-    bottom: 25%;
-    left: 27%;
+
 }
 
 h4 {
@@ -144,4 +141,13 @@ h5 {
     right: 0;
     bottom: 0;
     border-bottom-right-radius: 10px;
+}
+
+.centerline{
+    margin-left: 130px;
+    margin-top: -55px;
+}
+
+.city{
+    margin-top: 5px;
 }
